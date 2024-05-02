@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    <style name="ToolbarTitleStyle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">28sp</item> <!-- Adjust the text size as needed -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ToolbarMenuStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item> <!-- Apply the custom white color to the menu text -->
+    </style>
+
+
+
+</resources>
